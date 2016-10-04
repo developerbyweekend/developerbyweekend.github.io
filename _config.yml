@@ -18,3 +18,9 @@ email: developerbyweekend@gmail.com
 url: "http://developerbyweekend.com" # the base hostname & protocol for your site
 github_username:  developerbyweekend
 
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+#URL
+permalink: /blogs/:year/:month/:day/:title
