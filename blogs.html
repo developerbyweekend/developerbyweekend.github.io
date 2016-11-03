@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h2>Blog List</h2>
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a href="{{ post.url }}">{{ post.title | escape }}</a>
+        <p>Desc :{{ post.desc }}</p>
+        <p>Author : {{ post.author}} </p>
+        <p>Tags/Categories : {{post.categories}}</p>
+    </li>
+    {% endfor %}
+</ul>
