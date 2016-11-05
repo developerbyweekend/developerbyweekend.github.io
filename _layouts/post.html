@@ -1,7 +1,84 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
- 
- 	{{ content}}
+<style type="text/css">
+    body{
+        background: #f6f6f6;
+    }
+    
+    .text-light-green{
+        color: #16a085;    
+    }
+    
+    .light-gray {
+        background: #fafafa;
+    }
+    
+    h1.bold-title{
+        font-size: 4em;
+        font-weight: 600;
+    }
 
+
+    .header {
+        background: #16a085;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .blog-post-container{
+        margin-top:30px; 
+    }
+
+    .blog-post-item{
+        background: #fff;
+        border-radius: 2px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .blog-post-title{
+        font-size: 2em;
+        color: #555;
+    }
+
+    .blog-post-title a:hover{
+        text-decoration: none;
+        color: #555;
+    }
+
+
+    .blog-post-description{
+        font-size: 1.2em;
+        color: #808080;
+    }
+
+</style>
+
+<div class="row header">
+    <div class="text-center">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4>DeveloperByWeekend</h4>
+            </div>
+            <div class="col-lg-6">
+                  <a class="btn btn-sm btn-primary"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-sm btn-primary"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-sm btn-primary"><i class="fa fa-google"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" style="margin-top:40px; ">
+    <div class="row">
+        <h1 class="text-center bold-title">{{ page.title }}</h1>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2">    
+        <div class="blog-post-container">    
+        <div class="blog-post-item">
+            <span class="blog-post-description">{{ content}}</span><br/><br/>
+            posted on <span class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</span> by <span class="text-light-green">{{ post.author }}</span>            
+        </div>
+    </div>
+    
+</div>
