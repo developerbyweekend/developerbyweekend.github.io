@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to DeveloperByWeekend"
+title: "Welcome to Developer By Weekend"
 date: 2016-10-04 22:50:31 +0530
 desc: Our First Blog
 author: Sunit Deshpande
