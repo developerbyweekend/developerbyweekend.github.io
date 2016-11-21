@@ -20,7 +20,9 @@ github_username:  developerbyweekend
 
 # Configurations
 markdown: kramdown
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
+# markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+
 
 #URL
 permalink: pretty
