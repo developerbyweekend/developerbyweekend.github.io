@@ -57,14 +57,28 @@ layout: default
 
 
     .blog-post-description{
-        font-size: 1.2em;
-        color: #808080;
+        font-size: 1.1em;
+        /*color: #808080;*/
         text-align: justify;
+        font:sans-serif;
+    }
+
+    .blog-post-description a {
+        font-size: .85em;
+        color: darkgreen;
+        text-decoration: underline;
+/*        border-bottom: solid 1px darkgreen;
+        display: inline;*/
+    }
+
+    .blog-post-description a:hover {
+        font-size: .86em;
+        color: brown;
     }
 
 </style>
 
-<div class="row header">
+<div class="header">
     <div class="text-center">
         <div class="row">
             <div class="col-lg-6">
@@ -87,8 +101,9 @@ layout: default
         <div class="blog-post-item">
             <span class="blog-post-title"><h3>{{ page.title}}</h3></span>
             <hr/>
-            <span class="blog-post-description">{{ content }}</span><br/><br/>
-            posted on <span class="text-muted">{{ page.date | date: "%b %-d, %Y" }}</span> by <span class="text-light-green">{{ page.author }}</span>            
+            <span class="blog-post-description">{{ content }}</span>
+            posted on <span class="text-muted">{{ page.date | date: "%b %-d, %Y" }}</span> by <span class="text-light-green">{{ page.author }}
+            </span> <br>         
         </div>
     </div>
 </div>
