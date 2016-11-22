@@ -18,7 +18,8 @@ Ever wondered how to get started with frontend web development or where to find 
 If you are a beginner to start with Web development or just want to brushup some of your html/css/js skills here you should go (*Pick* what suits you best).  
 Here's some getting started  
 
-<u>Beginner - Video based resources  </u>
+<u>Beginner - Video based resources  </u> 
+
 * [How to Use Git and GitHub - Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 * [Intro to HTML and CSS - Udacity](https://www.udacity.com/course/intro-to-html-and-css--ud304)
 * [JavaScript Basics - Udacity](https://www.udacity.com/course/javascript-basics--ud804)
@@ -31,7 +32,8 @@ Here's some getting started
 * [Discover Devtools - Codeschool](https://www.codeschool.com/courses/discover-devtools)
 
 
-<u> Beginner - Interactive tutorials </u>
+<u> Beginner - Interactive tutorials </u> 
+
 * [Learn git - by Codeacademy](https://www.codecademy.com/learn/learn-git)
 * [HTML & CSS - by Codeacademy](https://www.codecademy.com/learn/web)
 * [JavaScript - by Codeacademy](https://www.codecademy.com/learn/javascript)
@@ -40,7 +42,8 @@ Here's some getting started
 * [Deploy a website - by Codeacademy](https://www.codecademy.com/learn/deploy-a-website)
 
 
-<u> Highly recommended books:</u>
+<u> Highly recommended books:</u> 
+
 * [Eloquent JavaScript](http://eloquentjavascript.net/)-  ([pdf](http://eloquentjavascript.net/Eloquent_JavaScript.pdf), [mobile pdf](http://eloquentjavascript.net/Eloquent_JavaScript.pdf), [HTML Version](http://eloquentjavascript.net/00_intro.html))
 * [Douglas Crockford's Javascript Encyclopedia](http://www.crockford.com/javascript/encyclopedia/)
 * [JavaScript: The Good Parts Unearthing the Excellence in JavaScript](http://shop.oreilly.com/product/9780596517748.do)
@@ -54,7 +57,8 @@ The Advanced part is most important to solve some of the common frontend problem
 
 For javascript: [htmldog](http://htmldog.com/guides/javascript/) has covered all the tutorials for beginner, intermediate, Advanced javascript.
 
-If you know the basics of javascripts some of the important topics to look for are : 
+If you know the basics of javascripts some of the important topics to look for are :  
+
 * [Understand JavaScript’s “this” With Clarity, and Master It](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 * [JavaScript Variable Scope and Hoisting Explained ](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
 * [Understand JavaScript Closures With Ease ](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
@@ -62,31 +66,33 @@ If you know the basics of javascripts some of the important topics to look for a
 * [JavaScript’s Apply, Call, and Bind Methods are Essential for JavaScript Professionals ](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
 * [OOP In JavaScript: What You NEED to Know ](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
-<u>  CSS Code Structure and Guildline:</u>
+<u>  CSS Code Structure and Guildline:</u> 
+
 * [Scalable and Modular Architecture for CSS](https://smacss.com/)
 * [front-end naming methodology](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
-<u>  Good website resources for articles:</u>
+<u>  Good website resources for articles:</u> 
+
 * [CSS Tricks](https://css-tricks.com/)
 * [ScotchIO](https://scotch.io/)
 
-<u> Some comprehensive resources websites:</u>
+<u> Some comprehensive resources websites:</u> 
+
 * [Front End Resources](https://enboard.co/frontend/)
 * [A badass list of frontend development resources](https://gist.github.com/dypsilon/5819504), [Organized by categories](https://github.com/dypsilon/frontend-dev-bookmarks)
 
-<u> Advanced resources that will make you a Javascript Ninja :</u>
+<u> Advanced resources that will make you a Javascript Ninja :</u> 
+
 * [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) (Written by Addy Osmani, Google Engineer)
 * [Mastering the Module Pattern ](https://toddmotto.com/mastering-the-module-pattern/) ( A book by Todd ,  Developer Expert at Google,Google chrome developer)
 * [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read) (Latest Javascript Standard, de-facto)
 
-<u> Front-end Job Interview Questions</u>
+<u> Front-end Job Interview Questions</u> 
+
 * [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) or [web version](http://h5bp.github.io/Front-end-Developer-Interview-Questions/)- Covers so many question/gotchas in the frontend, *A MUST KNOW*. The above link is a part of h5bp project which is maintained by [Paul Irish](https://www.paulirish.com/) involved in building [chrome dev tools](https://developer.chrome.com/devtools), [jquery 3](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/) and [Divya Manian](https://usesthis.com/interviews/divya.manian/), [her website](http://nimbupani.com/). She worked at [w3c](https://www.w3.org/Consortium/)(an organization who defines the web rules and standards)
 
 
 This blog post is reviewed by - [Rahul Sagore](http://rahul-sagore.github.io/#/), [Ashish Tiwari](http://www.ashishtiwari.me/), [Sunit Deshpande](sunitdeshpande.github.io) and [Ankit Kulkarni](https://i.ankul.in/)
-
-
-
 
 ---------------------------------------
 
