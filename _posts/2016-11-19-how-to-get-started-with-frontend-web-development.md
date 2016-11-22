@@ -11,12 +11,12 @@ target_audience: Beginner, Intermediate, Advanced
 
 **Target audience** - *Beginner, Intermediate, Advanced* 
 
------------------------------------------------------
+-----------------------------------------------------  
 
 Ever wondered how to get started with frontend web development or where to find best of the resources ? Here's something interesting. In the age of internet with increasing content, its easy to find a resource to learn something, however it's difficult to find good and well-explained resources among communities. Those resources comes from developers working in those areas. This weekend we tried to bring the same to you.
 
-If you are a beginner to start with Web development or just want to brushup some of your html/css/js skills here you should go (*Pick* what suits you best)  
-Here's some getting started 
+If you are a beginner to start with Web development or just want to brushup some of your html/css/js skills here you should go (*Pick* what suits you best).  
+Here's some getting started  
 
 <u>Beginner - Video based resources  </u>
 * [How to Use Git and GitHub - Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
