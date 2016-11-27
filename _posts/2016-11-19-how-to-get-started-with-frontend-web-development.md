@@ -4,6 +4,8 @@ title: "Getting started with Frontend Web Development"
 desc: How can you get started with frontend web development 
 author: Ankit Kulkarni
 author_link: https://i.ankul.in
+author_about: "I code becuase I love to, not because I have to"
+author_image: /assets/images/ankit.jpg
 categories : webdevelopment
 tags: beginner intermediate advanced frontend
 target_audience: Beginner, Intermediate, Advanced

@@ -1,109 +1,55 @@
 ---
 layout: default
 ---
-<style type="text/css">
-    body{
-        background: #f6f6f6;
-    }
-    
-    .text-light-green{
-        color: #16a085;    
-    }
-    
-    .light-gray {
-        background: #fafafa;
-    }
-    
-    
-    h4 a{
-        color: #fff;        
-    }
-    h4 a:hover{
-        text-decoration: none;    
-        color: #fff;
-    }
-
-    h1.bold-title{
-        font-size: 4em;
-        font-weight: 600;
-    }
-
-    .header {
-        background: #16a085;
-        color: #fff;
-        padding: 20px;
-    }
-
-    .blog-post-container{
-        margin-top:30px; 
-    }
-
-    .blog-post-item{
-        background: #fff;
-        border-radius: 2px;
-        padding: 20px;
-        margin: 10px;
-    }
-
-    .blog-post-title{
-        font-size: 2em;
-        color: #555;
-    }
-
-    .blog-post-title a:hover{
-        text-decoration: none;
-        color: #555;
-    }
 
 
-    .blog-post-description{
-        font-size: 1.1em;
-        /*color: #808080;*/
-        text-align: justify;
-        font:sans-serif;
-    }
 
-    .blog-post-description a {
-        font-size: .85em;
-        color: darkgreen;
-        text-decoration: underline;
-/*        border-bottom: solid 1px darkgreen;
-        display: inline;*/
-    }
 
-    .blog-post-description a:hover {
-        font-size: .86em;
-        color: brown;
-    }
+<div class="section">
 
-</style>
+    <div class="container">
 
-<div class="header">
-    <div class="text-center">
+        <div class="row valign-wrapper">
+            <a class="valign-wrapper" href="{{page.author_link}}" target="_blank" >
+
+            <div class="col s3 m2 valign">
+                <img src="{{page.author_image}}" alt="" class="circle responsive-img">
+                <!-- notice the "circle" class -->
+            </div>
+            <div class="col s9 m10 valign valign-wrapper">
+                <div class="valign teal-text">
+                    <div>
+                        {{page.author}}
+                    </div>
+                </div>
+                <div class="valign grey-text text-lighten-1">
+                    {{page.author_about}}
+
+                </div>
+                <div class="valign grey-text text-lighten-1">
+                    {{ page.date | date: "%b %-d, %Y" }}
+                </div>
+            </div>
+            </a>
+
+            <div class="col s5">
+                <a href="{{page.author_link}}" target="_blank" class="waves-effect waves-light btn right">More</a>
+            </div>
+
+        </div>
+        <h2>
+            {{ page.title}}
+        </h2>
         <div class="row">
-            <div class="col-lg-6">
-                <h4><a href="/">DeveloperByWeekend</a></h4>
+            <div class="col s12 m10 l10 blog-content">
+                {{ content }}
             </div>
-            <div class="col-lg-6">
-                  <a class="btn btn-sm btn-primary"><i class="fa fa-facebook"></i></a>
-                  <a class="btn btn-sm btn-primary"><i class="fa fa-twitter"></i></a>
-                  <a class="btn btn-sm btn-primary"><i class="fa fa-google"></i></a>
-            </div>
+
         </div>
+
+
     </div>
 </div>
-<ul class="pager">
-  <li><a href="/blogs/">&larr; Blogs</a></li> 
-</ul>
-<div class="container" style="margin-top:10px; ">
-    <div class="col-lg-9 col-lg-offset-2">
-    <div class="blog-post-container">    
-        <div class="blog-post-item">
-            <span class="blog-post-title"><h3>{{ page.title}}</h3></span>
-            <hr/>
-            <span class="blog-post-description">{{ content }}</span>
-            posted on <span class="text-muted">{{ page.date | date: "%b %-d, %Y" }}</span> by <span class="text-light-green">{{ page.author }}
-            </span> <br>         
-        </div>
-    </div>
-</div>
+
+
+
