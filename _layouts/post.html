@@ -3,20 +3,18 @@ layout: default
 ---
 
 
-
-
 <div class="section">
 
     <div class="container">
 
         <div class="row valign-wrapper">
-            <a class="valign-wrapper" href="{{page.author_link}}" target="_blank" >
+            <!--<a class="valign-wrapper" href="{{page.author_link}}" target="_blank" >-->
 
-            <div class="col s3 m2 valign">
+            <div class="col s3 m1 l1 valign">
                 <img src="{{page.author_image}}" alt="" class="circle responsive-img">
                 <!-- notice the "circle" class -->
             </div>
-            <div class="col s9 m10 valign valign-wrapper">
+            <div class="col s9 m9 l9 valign valign-wrapper">
                 <div class="valign teal-text">
                     <div>
                         {{page.author}}
@@ -30,9 +28,9 @@ layout: default
                     {{ page.date | date: "%b %-d, %Y" }}
                 </div>
             </div>
-            </a>
+            <!--</a>-->
 
-            <div class="col s5">
+            <div class="col hide-on-small-only s5 l2">
                 <a href="{{page.author_link}}" target="_blank" class="waves-effect waves-light btn right">More</a>
             </div>
 
@@ -40,6 +38,9 @@ layout: default
         <h2>
             {{ page.title}}
         </h2>
+        <div class="row">
+            <div class="addthis_inline_share_toolbox"></div>
+        </div>
         <div class="row">
             <div class="col s12 m10 l10 blog-content">
                 {{ content }}
