@@ -20,7 +20,7 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 title: Developer By Weekend
 email: developerbyweekend@gmail.com
-url: "http://developerbyweekend.com" # the base hostname & protocol for your site
+url: "http://developerbyweekend.github.io" # the base hostname & protocol for your site
 github_username:  developerbyweekend
 
 
